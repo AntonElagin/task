@@ -1,0 +1,51 @@
+
+.letters_settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #BBA0CA;
+}
+
+.letters_settings__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 5%;
+    background-color: #BBA0CA;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+.letters_settings__button:hover {
+    background-color: #B370B0;
+
+}
+
+.letters_settings__item {
+    margin-left: 10px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.letters_settings__button:active, .letters_settings__button:focus { outline: none; }
+
+.letters_settings__selected_count {
+    text-align: center;
+}
+
+.letters_settings__selected {
+    margin-right: 10px;
+}
+
+
+.letters_settings__label, .letters_settings__checkbox, .letters_settings__selected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

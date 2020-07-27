@@ -1,0 +1,53 @@
+:root {
+    --background:  #FFFFFF;
+}
+
+
+@media (max-width: 550px) {
+
+    .letters_box, .container {
+        min-width: 260px;
+    }
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 70%;
+    background-color: var(--background);
+}
+
+
+.letters_box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.emptyBox {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff00;
+}
+
+.emptyBox__background {
+    background-image: url(https://img.imgsmail.ru/octavius/1595158560837/static/ic_empty-folder.svg);
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.emptyBox__text {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
